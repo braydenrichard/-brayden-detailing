@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brayden Richard Detailing</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;background:#0b0b0b;color:#fff;line-height:1.5}
+header{min-height:88vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:40px 20px;background:radial-gradient(circle at top,#3a0000 0,#0b0b0b 55%);border-bottom:1px solid #2b2b2b}
+.hero{max-width:800px}
+.badge{display:inline-block;border:1px solid #d71920;color:#ff4b51;padding:7px 14px;border-radius:30px;font-size:13px;font-weight:700;letter-spacing:1px;margin-bottom:18px}
+h1{font-size:clamp(42px,9vw,76px);line-height:.95;margin-bottom:18px}
+.red{color:#e21b23}
+.hero p{font-size:18px;color:#cfcfcf;max-width:620px;margin:0 auto 28px}
+.btn{display:inline-block;background:#e21b23;color:#fff;text-decoration:none;padding:14px 24px;border-radius:8px;font-weight:800;margin:5px;transition:.2s}
+.btn:hover{background:#ff3038;transform:translateY(-1px)}
+.btn.outline{background:transparent;border:1px solid #e21b23}
+section{padding:70px 20px;max-width:1100px;margin:auto}
+h2{text-align:center;font-size:34px;margin-bottom:10px}
+.sub{text-align:center;color:#aaa;margin-bottom:35px}
+.packages{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:#151515;border:1px solid #292929;border-radius:14px;padding:28px;position:relative}
+.card.featured{border:2px solid #e21b23}
+.tag{position:absolute;right:15px;top:15px;background:#e21b23;padding:5px 9px;border-radius:20px;font-size:11px;font-weight:bold}
+.card h3{font-size:22px;margin-bottom:7px}
+.price{font-size:35px;font-weight:900;margin:12px 0 18px}
+.card ul{list-style:none;color:#ccc}
+.card li{padding:7px 0;border-bottom:1px solid #242424}
+.card li:before{content:"✓";color:#e21b23;font-weight:bold;margin-right:8px}
+.note{margin-top:20px;text-align:center;color:#888;font-size:13px}
+.contact{background:#121212;border-top:1px solid #222;border-bottom:1px solid #222}
+.contactbox{text-align:center;max-width:700px;margin:auto}
+.phone{font-size:28px;font-weight:900;color:#fff;text-decoration:none;display:block;margin:18px 0}
+footer{text-align:center;padding:28px 20px;color:#777;font-size:13px}
+@media(max-width:800px){.packages{grid-template-columns:1fr}.card{max-width:520px;margin:auto}header{min-height:78vh}}
+</style>
+</head>
+<body>
+<header>
+  <div class="hero">
+    <div class="badge">LOCAL • YOUNG ENTREPRENEUR</div>
+    <h1>BRAYDEN <span class="red">RICHARD</span><br>DETAILING</h1>
+    <p>Affordable interior & exterior vehicle detailing in the Rayne / Crowley, Louisiana area. Starting small, working hard, and treating every vehicle right.</p>
+    <a class="btn" href="#packages">View Packages</a>
+    <a class="btn outline" href="tel:13377859998">Call / Text</a>
+  </div>
+</header>
+
+<section id="packages">
+  <h2>Detailing Packages</h2>
+  <p class="sub">Beginner-friendly prices while I build my business.</p>
+  <div class="packages">
+    <div class="card">
+      <h3>Quick Clean</h3>
+      <div class="price">$35+</div>
+      <ul>
+        <li>Vacuum floors & seats</li>
+        <li>Wipe down dash & panels</li>
+        <li>Clean cup holders</li>
+        <li>Interior windows</li>
+        <li>Light trash removal</li>
+      </ul>
+    </div>
+
+    <div class="card featured">
+      <div class="tag">POPULAR</div>
+      <h3>Full Interior</h3>
+      <div class="price">$60+</div>
+      <ul>
+        <li>Everything in Quick Clean</li>
+        <li>Deep vacuuming</li>
+        <li>Detailed crevices & vents</li>
+        <li>Door panels & trim</li>
+        <li>Interior glass</li>
+        <li>Basic stain treatment</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Full Detail</h3>
+      <div class="price">$90+</div>
+      <ul>
+        <li>Full interior detail</li>
+        <li>Exterior hand wash</li>
+        <li>Wheels & tires cleaned</li>
+        <li>Exterior windows</li>
+        <li>Basic tire shine</li>
+        <li>Final wipe-down</li>
+      </ul>
+    </div>
+  </div>
+  <p class="note">Prices are starting prices. Large vehicles, heavy stains, pet hair, or excessive dirt may cost extra. Get a quote before booking.</p>
+</section>
+
+<section class="contact">
+  <div class="contactbox">
+    <h2>Ready to Get Your Ride Clean?</h2>
+    <p class="sub">Text me a picture of your vehicle for a quick quote.</p>
+    <a class="phone" href="sms:13377859998">(337) 785-9998</a>
+    <a class="btn" href="sms:13377859998">Text for a Quote</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 Brayden Richard Detailing • Rayne / Crowley, LA
+</footer>
+</body>
+</html>
